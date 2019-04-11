@@ -53,3 +53,6 @@ io.on('connection', (socket) => {
     });
 
 });
+Chat.find({},(err,data)=>{
+    console.log(data)
+})
